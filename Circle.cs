@@ -39,7 +39,11 @@ namespace ConsoleApp1
         }
         public double GetArea()
         {
-            return Math.PI * Math.Pow(this.radius, 2);
+            return 3.14 * Math.Pow(this.radius, 2);
+        }
+        public double GetPerimiter()
+        {
+            return 2 * 3.14 * this.radius;
         }
         public override string ToString()
         {
